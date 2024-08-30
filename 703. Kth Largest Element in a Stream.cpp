@@ -8,7 +8,6 @@ public:
             add(n);
         }
     }
-
     int add(int val) {
         minHeap.push(val);
         if(minHeap.size()>k)minHeap.pop();
