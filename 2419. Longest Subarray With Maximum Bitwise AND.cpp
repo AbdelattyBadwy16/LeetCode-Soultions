@@ -11,7 +11,6 @@ public:
             else lst = 0;
         }
         ans = max(ans,len);
-        cout<<mx<<endl;
         return ans;
     }
 };
